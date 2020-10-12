@@ -12,6 +12,11 @@
         <title>Home</title>
     </head>
     <body>
-        <h1>Home</h1>
+        <h2>Home</h2>
+        <h4>Hello ${username}.</h4>
+        <form action="home" method="get">
+            <input type="hidden" name="logout">
+            <a href="login?logout">Log out</a>
+        </form>
     </body>
 </html>
